@@ -1,3 +1,8 @@
+> **本仓库是 [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) 的 fork。** 本人提交的
+> [PR #1364](https://github.com/THU-MAIC/OpenMAIC/pull/1364) 已**被上游合并**：修复 Grok 中转链路长耗时生成
+> 被网关 504 截断、图片已生成成功却因 CDN 不可达而二次拉取失败两个问题。
+> 改动 11 个文件（+425/-16，其中 5 个为测试文件）。
+
 <!-- <p align="center">
   <img src="assets/logo-horizontal.png" alt="OpenMAIC" width="420"/>
 </p> -->

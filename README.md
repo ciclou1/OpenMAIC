@@ -1,3 +1,9 @@
+> **This repository is a fork of [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC).** My
+> [PR #1364](https://github.com/THU-MAIC/OpenMAIC/pull/1364) was **merged upstream**: it keeps long
+> non-streaming generations alive behind an OpenAI-compatible relay instead of being cut off by a 504 at the
+> gateway's idle timeout, and it inlines Grok image bytes so that a generation which already succeeded no
+> longer fails on an unreachable CDN host. 11 files, +425/-16, 5 of them tests.
+
 <!-- <p align="center">
   <img src="assets/logo-horizontal.png" alt="OpenMAIC" width="420"/>
 </p> -->
